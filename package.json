@@ -1,0 +1,19 @@
+{
+  "name": "rescript-aoc-2018",
+  "version": "0.0.1",
+  "description": "Rescript solutions to Advent of Code 2018",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w"
+  },
+  "author": "Alexander Houseago",
+  "license": "ISC",
+  "dependencies": {
+    "rescript": "*"
+  },
+  "devDependencies": {
+    "bs-platform": "^9.0.2",
+    "eslint": "^7.25.0"
+  }
+}
